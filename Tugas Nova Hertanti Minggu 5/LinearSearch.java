@@ -1,20 +1,20 @@
 public class LinearSearch {
     public static void main(String[] args) {
-        int[] numbers = {10, 20, 30, 40, 50};
-        int searchNumber = 30;
+        int[] arr = {2, 7, 13, 17, 19, 21, 27, 39, 55, 61};
+        int x = 21;
+        int index = search(arr, x);
 
-        int result = linearSearch(numbers, searchNumber);
-
-        if (result == -1) {
-            System.out.println("Angka " + searchNumber + " tidak ditemukan dalam array.");
+        if (index == -1) {
+            System.out.println("Elemen tidak ditemukan");
         } else {
-            System.out.println("Angka " + searchNumber + " ditemukan pada indeks " + result + ".");
+            System.out.println("Elemen ditemukan pada indeks ke-" + index);
         }
     }
 
-    public static int linearSearch(int[] array, int searchNumber) {
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] == searchNumber) {
+    public static int search(int[] arr, int x) {
+        int n = arr.length;
+        for (int i = 0; i < n; i++) {
+            if (arr[i] == x) {
                 return i;
             }
         }
