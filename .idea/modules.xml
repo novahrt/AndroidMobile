@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidMobile.iml" filepath="$PROJECT_DIR$/AndroidMobile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/belajar_java/belajar_java.iml" filepath="$PROJECT_DIR$/belajar_java/belajar_java.iml" />
+    </modules>
+  </component>
+</project>
