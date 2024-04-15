@@ -10,7 +10,7 @@ fun bagiDua(pembilang: Int, penyebut: Int) {
 fun main() {
     // Contoh pemanggilan fungsi bagiDua
     val pembilang = 20
-    val penyebut = 0 // Ubah nilai penyebut agar tidak nol
+    val penyebut = 2 // Ubah nilai penyebut agar tidak nol
 
     println("Mencoba membagi $pembilang dengan $penyebut")
     bagiDua(pembilang, penyebut)
